@@ -60,7 +60,7 @@ discord.addComponent(new Transform({ position: new Vector3(2, 0, 2), scale: new 
 
 discord.addComponent(
   new OnPointerDown(() => {
-    openExternalURL("https://www.coingecko.com/en/coins/ternio")
+    openExternalURL("https://discord.gg/g4dE8MpRrV")
   },
     { hoverText: "Join the discord!" }
 )
