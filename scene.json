@@ -1,0 +1,46 @@
+{
+  "display": {
+    "title": "Get A BlockCard",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "13,-1"
+    ],
+    "base": "13,-1"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 2
+      },
+      "cameraTarget": {
+        "x": 14,
+        "y": 1,
+        "z": 14
+      }
+    }
+  ]
+}
