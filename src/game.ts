@@ -7,7 +7,7 @@ box.addComponent(
     openExternalURL("https://dashboard.getblockcard.com/i/sDVaVe29")
 
   },
-    { distance: 1000, hoverText: "Want to ditch your bank and go 100% crypto? <br>Sign up here for a $10 bonus when you deposit $100!<br><br>We provide crypto debit/credit cards to the USA.<br>(Coming soon in EU/APAC/LATAM)<br><br>Many thanks,<br>Unbanked.com"
+    { distance: 1000, hoverText: "Sign up here for a $10 bonus when you deposit $100!<br><br>We provide crypto debit/credit cards to the USA.<br>(Coming soon in EU/APAC/LATAM)<br><br>Many thanks,<br>Unbanked.com"
    }
 )
 )
