@@ -6,10 +6,10 @@
     "favicon": "favicon_asset"
   },
   "contact": {
-    "name": "author-name",
+    "name": "UNBANKED",
     "email": ""
   },
-  "owner": "",
+  "owner": "UNBANKED",
   "scene": {
     "parcels": [
       "13,-1"
@@ -34,14 +34,14 @@
       "name": "spawn1",
       "default": true,
       "position": {
-        "x": 2,
+        "x": 0,
         "y": 0,
-        "z": 2
+        "z": 8
       },
       "cameraTarget": {
-        "x": 14,
+        "x": 8,
         "y": 1,
-        "z": 14
+        "z": 8
       }
     }
   ]

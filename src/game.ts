@@ -1,6 +1,6 @@
 const box = new Entity();
-box.addComponent(new GLTFShape("models/banker.glb"));
-box.addComponent(new Transform({ position: new Vector3(4, 0, 8), scale: new Vector3(1, 1, 1) }));
+box.addComponent(new GLTFShape("models/banker2.glb"));
+box.addComponent(new Transform({ position: new Vector3(8, 0, 15), scale: new Vector3(1, 1, 1) }));
 
 box.addComponent(
   new OnPointerDown(() => {
@@ -17,7 +17,7 @@ engine.addEntity(box);
 const tele = new Entity();
 engine.addEntity(tele);
 tele.addComponent(new GLTFShape("models/tele.gltf"));
-tele.addComponent(new Transform({ position: new Vector3(14, 0, 14), scale: new Vector3(2, 2, 2) }));
+tele.addComponent(new Transform({ position: new Vector3(15, 0, 15), scale: new Vector3(2, 2, 2) }));
 
 tele.addComponent(
   new OnPointerDown(() => {
@@ -30,7 +30,7 @@ tele.addComponent(
 const tele2 = new Entity();
 engine.addEntity(tele2);
 tele2.addComponent(new GLTFShape("models/teleg.gltf"));
-tele2.addComponent(new Transform({ position: new Vector3(14, 0, 2), scale: new Vector3(2, 2, 2) }));
+tele2.addComponent(new Transform({ position: new Vector3(15, 0, 1), scale: new Vector3(2, 2, 2) }));
 
 tele2.addComponent(
   new OnPointerDown(() => {
@@ -43,7 +43,7 @@ tele2.addComponent(
 const cg = new Entity();
 engine.addEntity(cg);
 cg.addComponent(new GLTFShape("models/cg.gltf"));
-cg.addComponent(new Transform({ position: new Vector3(2, 0, 14), scale: new Vector3(2, 2, 2) }));
+cg.addComponent(new Transform({ position: new Vector3(1, 0, 15), scale: new Vector3(2, 2, 2) }));
 
 cg.addComponent(
   new OnPointerDown(() => {
@@ -56,7 +56,7 @@ cg.addComponent(
 const discord = new Entity();
 engine.addEntity(discord);
 discord.addComponent(new GLTFShape("models/disc.gltf"));
-discord.addComponent(new Transform({ position: new Vector3(2, 0, 2), scale: new Vector3(2, 2, 2) }));
+discord.addComponent(new Transform({ position: new Vector3(1, 0, 1), scale: new Vector3(2, 2, 2) }));
 
 discord.addComponent(
   new OnPointerDown(() => {
@@ -69,7 +69,7 @@ discord.addComponent(
 const visa = new Entity();
 engine.addEntity(visa);
 visa.addComponent(new GLTFShape("models/visa.glb"));
-visa.addComponent(new Transform({ position: new Vector3(7, 1, 1), scale: new Vector3(1, 1, 1), rotation: Quaternion.Euler(0, 0, 0), }));
+visa.addComponent(new Transform({ position: new Vector3(10, 1, 1), scale: new Vector3(2, 2, 2), rotation: Quaternion.Euler(0, 0, 0), }));
 
 visa.addComponent(
   new OnPointerDown(() => {
