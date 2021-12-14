@@ -23,7 +23,7 @@ tele.addComponent(
   new OnPointerDown(() => {
     openExternalURL("https://t.me/ternio_token")
   },
-    { hoverText: "Join the Telegram!" }
+    { hoverText: "Join the Telegram!", distance: 800 }
 )
 )
 
@@ -36,7 +36,7 @@ tele2.addComponent(
   new OnPointerDown(() => {
     openExternalURL("https://t.me/TERNunofficial")
   },
-    { hoverText: "Join the TERN unofficial Moonboys!" }
+    { hoverText: "Join the TERN unofficial Moonboys!", distance: 800 }
 )
 )
 
@@ -49,7 +49,7 @@ cg.addComponent(
   new OnPointerDown(() => {
     openExternalURL("https://www.coingecko.com/en/coins/ternio")
   },
-    { hoverText: "CoinGecko!" }
+    { hoverText: "CoinGecko!", distance: 800 }
 )
 )
 
@@ -62,7 +62,7 @@ discord.addComponent(
   new OnPointerDown(() => {
     openExternalURL("https://discord.gg/g4dE8MpRrV")
   },
-    { hoverText: "Join the discord!" }
+    { hoverText: "Join the discord!", distance: 800 }
 )
 )
 
@@ -75,7 +75,7 @@ visa.addComponent(
   new OnPointerDown(() => {
     teleportTo('-140,-23')
   },
-    { hoverText: "Learn more here!" }
+    { hoverText: "Learn more here!", distance: 800 }
 )
 )
 
